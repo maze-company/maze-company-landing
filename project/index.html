@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MAZE | 미로같은 문제를 풀어내는 스타트업</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/assets/asset.96592c59.png">
+    <link rel="preload" as="image" href="data:image/png;base64,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">
+  <link rel="stylesheet" href="/assets/asset.e5da686d.css"></link>
+</head>
+  <body class="w-full min-h-screen flex flex-col">
+    <nav class="bg-white fixed w-full top-0 pt-4 pb-6 px-4">
+  <div class="max-w-screen-xl mx-auto flex items-end">
+    <a href="/">
+      <img class="hidden md:inline aspect-[3/1] w-[120px] mr-6" src="/assets/asset.96592c59.png" alt="MAZE logo">
+      <img class="md:hidden h-8 inline aspect-[4/5] w-[40px] mr-4" src="data:image/png;base64,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" alt="MAZE icon">
+    </a>
+    <ul class="flex font-bold items-end">
+      <li>
+            <a class="text-sm md:text-base hover:text-primary-dark mx-2 md:px-4 md:py-2" href="/about">
+              메이즈
+            </a>
+          </li><li>
+            <a class="text-sm md:text-base text-primary-dark mx-2 md:px-4 md:py-2" href="/project">
+              프로젝트
+            </a>
+          </li>
+    </ul>
+  </div>
+</nav>
+
+    <main class="flex-grow">
+      <section class="bg-splash-project bg-no-repeat bg-cover bg-center flex items-center h-[600px] md:h-[800px]">
+  <div class="text-center text-white mx-auto px-4" style="text-shadow: 4px 4px 8px #333">
+    <h1 class="font-bold leading-tight md:leading-snug text-4xl md:text-6xl mb-8">
+      MAZE의 첫 번째<br>프로젝트
+    </h1>
+  </div>
+</section>
+<section id="overview" class="max-w-screen-lg mx-auto px-8 py-48 text-center">
+  <header class="mb-16">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 bg-clip-text bg-gradient-to-r from-primary to-secondary text-transparent">
+      스마트한 개인 카페<br class="sm:hidden">상생 솔루션
+    </h1>
+    <p class="max-w-screen-sm mx-auto">
+      지역 중심의 체계적인 방문객 증대 전략으로 소규모 개인 카페들이 대형
+      프랜차이즈에 대응할 경쟁력을 확보하게끔 도와주는 통합 플랫폼 솔루션
+      <em>(2022년 7월 출시 예정)</em>
+    </p>
+  </header>
+  <a href="https://forms.gle/SU8YZXaQtpo4AS189" class="inline-block font-bold text-sm md:text-base text-center text-white rounded-lg px-4 py-3 md:px-6 bg-gradient-to-r from-secondary-light to-secondary hover:bg-none hover:bg-secondary-light mb-16" target="_blank" rel="noreferrer noopener">
+  
+    가맹 문의하기
+  
+</a>
+
+  <img class="w-full" src="/assets/asset.a8f2d7b8.jpg">
+</section>
+<section id="highlight" class="max-w-screen-lg mx-auto px-8 py-48 text-center">
+  <header class="mb-16">
+    <h1 class="text-2xl md:text-3xl font-bold mb-8">전혀 새로운 게임</h1>
+    <p class="max-w-screen-sm mx-auto">
+      여러 대형 프랜차이즈들의 기술 기반 서비스에 대응해 개인 카페들이 따로
+      경쟁하는 오늘날의 시장 구조에서 개인 카페들이 다함께 참여하는 통합
+      플랫폼의 등장으로 커피 시장에 혁신적인 패러다임 전환을 가져옵니다.
+    </p>
+  </header>
+  <div class="flex flex-col">
+    <div class="sm:flex sm:min-h-[300px]">
+      <div class="text-left text-white m-4 p-8 min-h-full bg-primary-dark">
+  <h2 class="tracking-wider uppercase text-xl md:text-2xl font-bold mb-4 md:mb-8">
+    Technology
+  </h2>
+  <p class="md:text-lg">
+    
+        인공지능, 빅데이터, 사물인터넷, 메타버스 기술을 결합하여 각 개인 카페의
+        특성과 이를 방문하는 고객의 취향에 기반한 최상의 핏(fit)을 찾아냅니다.
+      
+  </p>
+</div>
+
+      <div class="text-left text-white m-4 p-8 min-h-full bg-secondary">
+  <h2 class="tracking-wider uppercase text-xl md:text-2xl font-bold mb-4 md:mb-8">
+    Hyperlocal
+  </h2>
+  <p class="md:text-lg">
+    
+        특정 지역의 개인 카페들과 근처 주민들의 구체적인 니즈를 충족시키는
+        하이퍼로컬 커뮤니티를 만듭니다.
+      
+  </p>
+</div>
+
+    </div>
+    <div class="sm:flex sm:min-h-[300px]">
+      <div class="text-left text-white m-4 p-8 min-h-full bg-background flex-2">
+  <h2 class="tracking-wider uppercase text-xl md:text-2xl font-bold mb-4 md:mb-8">
+    Game theory
+  </h2>
+  <p class="md:text-lg">
+    
+        플랫폼에 참여하는 모두의 실제적 이해 관계를 고려해 다같이 혜택을 보는
+        환경을 조성합니다.
+      
+  </p>
+</div>
+
+      <div class="flex-3 m-4">
+        <img class="w-full min-h-full object-cover" src="/assets/asset.1b344e76.jpg">
+      </div>
+    </div>
+    <div class="sm:flex sm:min-h-[300px]">
+      <div class="text-left text-white m-4 p-8 min-h-full bg-secondary">
+  <h2 class="tracking-wider uppercase text-xl md:text-2xl font-bold mb-4 md:mb-8">
+    Crowdsourcing
+  </h2>
+  <p class="md:text-lg">
+    
+        메이즈만의 기술로 가맹 카페 및 그 사용자들의 행동 패턴 데이터를
+        실시간으로 파악, 분석하여 플랫폼을 향상시키는 한편 여기에서 창출된
+        수익을 데이터로 기여한 만큼 나눕니다.
+      
+  </p>
+</div>
+
+      <div class="text-left text-white m-4 p-8 min-h-full bg-primary-dark">
+  <h2 class="tracking-wider uppercase text-xl md:text-2xl font-bold mb-4 md:mb-8">
+    Network effect
+  </h2>
+  <p class="md:text-lg">
+    
+        플랫폼에 참여하는 개인 카페와 고객들이 늘어날수록 참여자들이 더 큰 비용
+        절감 효과와 더 많은 혜택을 누리게 되는 선순환 구조를 만듭니다.
+      
+  </p>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="text-center p-4">
+  <div class="text-gray-500">경기도 하남시 미사강변한강로 177 3층</div>
+  <div class="text-gray-500">contact@a-maze.ai</div>
+  <div class="font-bold">© 2022 MAZE Inc. All Rights Reserved.</div>
+</footer>
+
+  </body></html>
